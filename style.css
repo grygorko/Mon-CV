@@ -1,17 +1,18 @@
 
 .container {
-  width: 800px;
-  overflow:hidden;
+  width: 95%;
 }
 body {
   background-color: #CCCCCC;
+
 }
 header h1{
-  text-align: left;
+  text-align: center;
   text-decoration: underline;
 }
 nav {
-   text-align: right;
+    text-align: center;
+
 }
 nav ul {
   list-style: square;
