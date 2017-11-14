@@ -1,5 +1,23 @@
-.body {
+
+.container {
+  width: 800px;
+  overflow:hidden;
+}
+body {
   background-color: #CCCCCC;
+}
+header h1{
+  text-align: left;
+  text-decoration: underline;
+}
+nav {
+   text-align: right;
+}
+nav ul {
+  list-style: square;
+}
+nav li {
+  display: inline-block;
 }
 .page {
   width: 780px;
@@ -52,4 +70,7 @@ h2 {
   color: #3388BB;
   text-transform: uppercase;
   border-bottom: 3px solid #3388BB;
+}
+footer {
+  text-align: center;
 }
